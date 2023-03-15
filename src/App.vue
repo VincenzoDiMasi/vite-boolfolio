@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 import AppHeader from './components/AppHeader.vue';
-const apiUri = 'http://localhost:8000/api/'
+const apiUri = 'http://localhost:8001/api/'
 export default {
   name: 'App',
   components: {AppHeader},
