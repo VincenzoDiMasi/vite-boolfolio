@@ -2,10 +2,11 @@
 import axios from 'axios';
 
 import AppHeader from './components/AppHeader.vue';
+import ProjectCard from './components/ProjectCard.vue';
 const apiUri = 'http://localhost:8001/api/'
 export default {
   name: 'App',
-  components: {AppHeader},
+  components: {AppHeader, ProjectCard},
   data() { 
     return {
       projects: []
@@ -28,6 +29,7 @@ export default {
 
 <template>
 <AppHeader></AppHeader>
+<ProjectCard :projects="projects"></ProjectCard>   
 
 
 </template>

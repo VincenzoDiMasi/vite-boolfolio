@@ -22,6 +22,10 @@ export default {
       </div>
 </nav>
 
+<h1 class="text-center text-primary my-3">
+  My Projects
+</h1>
+
 </template>
 
 
