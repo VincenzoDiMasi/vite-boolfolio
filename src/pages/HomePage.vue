@@ -2,7 +2,7 @@
 import axios from 'axios';
 import ProjectCard from '../components/ProjectCard.vue';
 import AppLoader from '../components/AppLoader.vue';
-const apiUri = 'http://localhost:8001/api/'
+const apiUri = 'http://localhost:8001/api/';
 export default {
     name: 'HomePage',
     components: {ProjectCard, AppLoader},
@@ -21,7 +21,7 @@ export default {
         
       }).catch(err => {
         console.log(err);
-        
+
       }).then(() => {
         this.isLoading = false;
       });
