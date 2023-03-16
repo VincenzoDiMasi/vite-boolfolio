@@ -9,6 +9,11 @@ export default {
 <template>
 
 <div class="container mt-5">
+
+    <h1 class="text-center text-primary my-5">
+        My projects
+    </h1>
+
     <div class="row g-3">
         <div v-for="project in projects" class="col-4">
             <div class="card text-center">
